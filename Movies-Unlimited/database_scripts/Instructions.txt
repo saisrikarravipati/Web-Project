@@ -1,0 +1,6 @@
+## Use the below command to dump data from the database into the "moviedb" folder (Delete contents in "moviedb" folder first)
+mongodump --db moviedb --out "E:\MS UTD\CS\SPRING 2019\Web Programming Languages\Movies-final\Movies-Unlimited\database_scripts\moviedb"
+
+## Use the below command to dump data into the database from the "moviedb" folder (Drop the database first)
+mongorestore --db database_name "path_to_folder"
+mongorestore --db moviedb "E:\MS UTD\CS\SPRING 2019\Web Programming Languages\Movies-final\Movies-Unlimited\database_scripts\moviedb"

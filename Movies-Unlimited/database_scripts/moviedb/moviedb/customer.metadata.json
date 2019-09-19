@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":2,"key":{"_id":1},"name":"_id_","ns":"moviedb.customer"},{"v":2,"key":{"email":1.0},"name":"EmailUniqueIndex","ns":"moviedb.customer"}],"uuid":"7e00041b07f942bd9d9715f22b23e91c"}

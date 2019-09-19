@@ -1,0 +1,180 @@
+/*--------------------------Basic Setup-------------------------- */
+* {
+     font-family: 'Montserrat', sans-serif;
+     font-size: 12px;
+}
+*:focus{
+     outline: none;
+}
+body{
+    overflow-y: hidden;
+}
+table{
+    width: 100%;
+}
+td{
+     padding: 0px;
+}
+th{
+     padding: 0;
+}
+a:hover {
+     text-decoration: none;
+}
+input{
+    width: 90%;
+    padding: 3% 15%;
+    margin: 4% 0;
+    text-align: center;
+    border-radius: 15px;
+}
+.logo{
+     position: relative;
+     width:10%;
+     height: 60px ;width:140px;margin-top:18px;
+}
+.collage{
+     background-image: url("../images/moviesCollage.png");
+     height:-webkit-fill-available;
+     background-size: contain;
+     background-repeat: repeat;
+     background-color: rgba(2, 2, 2, 0.82);
+     background-blend-mode: multiply;
+}
+.container{
+     width: 100%;
+     padding: 0;
+     margin: 0;
+}
+
+/*--------------------------Login Section-------------------------- */
+.login_logo{
+     width: 20%;
+     margin-left: auto;
+     margin-right: auto;
+     position: relative;
+     margin: 2% 40%;
+     height: 60px ;width:80px;margin-left:auto;margin-right:auto;
+}
+.login{
+     padding: 2%;
+     position: absolute;
+     position: absolute;
+     width: 25%;
+     margin: -3% 37%;
+     text-align: center;
+     height: initial;
+     background-color: white;
+     border-radius: 30px;
+
+}
+
+.login_form{
+     font-size: 15px;
+}
+#login{
+     width: 50%;
+     background-color: darkred;
+     color: white;
+     border: black;
+     padding: 4% 10%;
+     border-radius: 40px;
+     font-size: 120%;
+
+}
+#register_success, #login_fail{
+    display: none;
+}
+
+/*--------------------------Register Section-------------------------- */
+.register_logo{
+     width: 28%;
+     margin-left: auto;
+     margin-right: auto;
+     position: relative;
+     margin: -5% 34%;
+}
+.register{
+     width: 50%;
+     display: none;
+     padding: 2%;
+     position: absolute;
+     position: absolute;
+     width: 25%;
+     margin: -7% 37%;
+     text-align: center;
+    ;
+     height: initial;
+     background-color: white;
+     border-radius: 40px;
+}
+.register_form{
+     font-size: 15px;
+     text-align: center;
+}
+.reg_input{
+     padding: 2% 5%;
+     margin: 5% -15% 0% -15%;
+     //4, -15% text-align: center;
+}
+.error{
+     display: none;
+     float: left;
+     color: red;
+     margin:0 0%;
+}
+
+/*----Password Strength Validations----*/
+meter {
+    /* Reset the default appearance */
+     -webkit-appearance: none;
+     -moz-appearance: none;
+     appearance: none;
+     margin: 0 auto 1em;
+     width: 85%;
+     height: .7em;
+    /* Applicable only to Firefox */
+     background: none;
+     background-color: rgba(0,0,0,0.1);
+     border-radius: 50px;
+}
+meter::-webkit-meter-bar {
+     background: none;
+     background-color: rgba(0,0,0,0.1);
+}
+meter[value="1"] {
+     background: red;
+}
+meter[value="2"] {
+     background: yellow;
+}
+meter[value="3"]{
+     background: orange;
+}
+meter[value="4"] {
+     background: green;
+}
+meter[value="1"]::-moz-meter-bar {
+     background: red;
+}
+meter[value="2"]::-moz-meter-bar {
+     background: yellow;
+}
+meter[value="3"]::-moz-meter-bar {
+     background: orange;
+}
+meter[value="4"]::-moz-meter-bar {
+     background: green;
+}
+
+/*----------Register and Back to Login----------*/
+#register, #back_to_login{
+     width: 40%;
+     background-color: maroon;
+     color: white;
+     border: black;
+     padding: 2% 2%;
+     margin: 5% 0 0 1%;
+     border-radius: 40px;
+     font-size: 90%;
+}
